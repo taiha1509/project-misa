@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewData["Title"] = "Routing";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+
+<h1>Attribute Routing</h1>
+
+@model (string fullname, DateTime dt, string attribute)
+
+<p>@Model.fullname was born in @Model.dt and this is @Model.attribute</p>

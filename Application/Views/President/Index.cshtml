@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "/Views/Shared/_Layout.cshtml"; 
+}
+
+
+<h1>Index</h1>
+
+@model (string fullname, DateTime dt, string attribute)
+
+<p>@Model.fullname was born in @Model.dt and this is @Model.attribute</p>

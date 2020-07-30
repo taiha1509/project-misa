@@ -1,0 +1,20 @@
+C:\Users\ntha4\source\repos\ip location\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ntha4\source\repos\ip location\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ntha4\source\repos\ip location\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\ntha4\source\repos\ip location\bin\Debug\netcoreapp3.1\ip location.exe
+C:\Users\ntha4\source\repos\ip location\bin\Debug\netcoreapp3.1\ip location.deps.json
+C:\Users\ntha4\source\repos\ip location\bin\Debug\netcoreapp3.1\ip location.runtimeconfig.json
+C:\Users\ntha4\source\repos\ip location\bin\Debug\netcoreapp3.1\ip location.runtimeconfig.dev.json
+C:\Users\ntha4\source\repos\ip location\bin\Debug\netcoreapp3.1\ip location.dll
+C:\Users\ntha4\source\repos\ip location\bin\Debug\netcoreapp3.1\ip location.pdb
+C:\Users\ntha4\source\repos\ip location\obj\Debug\netcoreapp3.1\ip location.csprojAssemblyReference.cache
+C:\Users\ntha4\source\repos\ip location\obj\Debug\netcoreapp3.1\ip location.AssemblyInfoInputs.cache
+C:\Users\ntha4\source\repos\ip location\obj\Debug\netcoreapp3.1\ip location.AssemblyInfo.cs
+C:\Users\ntha4\source\repos\ip location\obj\Debug\netcoreapp3.1\ip location.csproj.CoreCompileInputs.cache
+C:\Users\ntha4\source\repos\ip location\obj\Debug\netcoreapp3.1\ip location.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ntha4\source\repos\ip location\obj\Debug\netcoreapp3.1\ip location.RazorTargetAssemblyInfo.cache
+C:\Users\ntha4\source\repos\ip location\obj\Debug\netcoreapp3.1\staticwebassets\ip location.StaticWebAssets.Manifest.cache
+C:\Users\ntha4\source\repos\ip location\obj\Debug\netcoreapp3.1\staticwebassets\ip location.StaticWebAssets.xml
+C:\Users\ntha4\source\repos\ip location\obj\Debug\netcoreapp3.1\ip location.dll
+C:\Users\ntha4\source\repos\ip location\obj\Debug\netcoreapp3.1\ip location.pdb
+C:\Users\ntha4\source\repos\ip location\obj\Debug\netcoreapp3.1\ip location.genruntimeconfig.cache
