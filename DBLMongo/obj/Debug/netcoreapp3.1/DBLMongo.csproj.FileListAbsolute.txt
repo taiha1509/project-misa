@@ -1,0 +1,6 @@
+C:\Users\ntha4\Source\Repos\project-misa\DBLMongo\bin\Debug\netcoreapp3.1\DBLMongo.exe
+C:\Users\ntha4\Source\Repos\project-misa\DBLMongo\obj\Debug\netcoreapp3.1\DBLMongo.csprojAssemblyReference.cache
+C:\Users\ntha4\Source\Repos\project-misa\DBLMongo\obj\Debug\netcoreapp3.1\DBLMongo.AssemblyInfoInputs.cache
+C:\Users\ntha4\Source\Repos\project-misa\DBLMongo\obj\Debug\netcoreapp3.1\DBLMongo.AssemblyInfo.cs
+C:\Users\ntha4\Source\Repos\project-misa\DBLMongo\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+C:\Users\ntha4\Source\Repos\project-misa\DBLMongo\obj\Debug\netcoreapp3.1\DBLMongo.csproj.CopyComplete
