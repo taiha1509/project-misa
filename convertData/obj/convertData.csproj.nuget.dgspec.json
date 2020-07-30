@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ntha4\\source\\repos\\convertData\\convertData.csproj": {}
+    "C:\\Users\\ntha4\\Source\\Repos\\project-misa\\convertData\\convertData.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ntha4\\source\\repos\\convertData\\convertData.csproj": {
+    "C:\\Users\\ntha4\\Source\\Repos\\project-misa\\convertData\\convertData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ntha4\\source\\repos\\convertData\\convertData.csproj",
+        "projectUniqueName": "C:\\Users\\ntha4\\Source\\Repos\\project-misa\\convertData\\convertData.csproj",
         "projectName": "convertData",
-        "projectPath": "C:\\Users\\ntha4\\source\\repos\\convertData\\convertData.csproj",
+        "projectPath": "C:\\Users\\ntha4\\Source\\Repos\\project-misa\\convertData\\convertData.csproj",
         "packagesPath": "C:\\Users\\ntha4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ntha4\\source\\repos\\convertData\\obj\\",
+        "outputPath": "C:\\Users\\ntha4\\Source\\Repos\\project-misa\\convertData\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\ntha4\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -66,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

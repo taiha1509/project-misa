@@ -18,18 +18,19 @@ namespace convertData.Mongo
             dbClient = new MongoClient(connection);
         }
 
+        [Obsolete]
         public void insertData(string DbName, String CollectionName, Model model)
         {
             var database = dbClient.GetDatabase(DbName);
             var collection = database.GetCollection<BsonDocument>(CollectionName);
 
-
+            
 
             var document = new BsonDocument
             {
                 {"ID",model.ID},
-                {"IPFrom",new BsonBinaryData(model.IPFrom) } ,
-                {"IPTo", new BsonBinaryData(model.IPTo)},
+                {"IPFrom", new BsonBinaryData(model.IPFrom, BsonBinarySubType.Binary) } ,
+                {"IPTo", new BsonBinaryData(model.IPTo, BsonBinarySubType.OldBinary)},
                 {"IPType",model.IPType},
                 {"Country",model.Country},
                 {"StateProvince", model.StateProvince },
@@ -42,8 +43,11 @@ namespace convertData.Mongo
                 {"ConectionType", model.ConnectionType },
                 {"OUName", model.OUName }
             };
-
+            Console.WriteLine("IPFrom : " + new BsonBinaryData(model.IPFrom));
+            Console.WriteLine("IPTo : " + new BsonBinaryData(model.IPTo));
             collection.InsertOne(document);
+
+       
         }
 
         public void closeConnection()

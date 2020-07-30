@@ -12,6 +12,7 @@ namespace convertData
 {
     class Transfer
     {
+        [Obsolete]
         public static void Main()
         {
             new Data();
@@ -27,20 +28,24 @@ namespace convertData
             int p = numofrecords / 1000;
             int q = numofrecords % 1000;
 
-            for (int i = 0; i < 1000; i += 1000)
-            {
-                getIP(conn, i, i + 1000);
+            //for (int i = 0; i < numofrecords; i += 1000)
+            //{
+            //    getIP(conn, i, i + 1000);
 
-                while (Data.data.Count > 0)
-                {
-                    mongoutils.insertData("fortest", "info", Data.data[0]);
-                    Data.data.RemoveAt(0);
-                }
-            }
+            //    while (Data.data.Count > 0)
+            //    {
+            //        mongoutils.insertData("fortest", "info", Data.data[0]);
+            //        Data.data.RemoveAt(0);
+            //    }
+            //}
 
             getIP(conn, p * 1000, numofrecords);
 
-
+            while (Data.data.Count > 0)
+            {
+                mongoutils.insertData("fortest", "info", Data.data[0]);
+                Data.data.RemoveAt(0);
+            }
 
             Console.WriteLine("cpmpleted");
 
